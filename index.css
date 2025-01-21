@@ -7,8 +7,7 @@ body{
     flex-direction:column;
     align-items:center;
     justify-content:center;
-
-
+    padding:20px;
 }
 .container{
     background:rgb(33, 33, 33);
@@ -18,10 +17,10 @@ body{
     align-items:center;
     margin:15px 0;
     width:90%;
-    max-width:400px;
+    max-width:300px;
 }
 img{
-    width:50%;
+    width:150px;
     border-radius:100%;
 }
 .text{
@@ -34,7 +33,6 @@ img{
 }
 .headline{
     color:lightgreen;
-    padding-bottom:20px;
 }
 section{
     width:100%;
@@ -47,6 +45,7 @@ section p{
     background:rgb(104, 104, 104);
     border-radius:10px;
     width:80%;
+    margin:5px 0;
 }
 section p:hover{
     background-color:rgb(190, 245, 106)
